@@ -17,14 +17,14 @@
 
 .cursos__chamada {
     align-items: left;
-    padding: 20px;
+    margin-left: 40px;
     
 }
 
 .chamada__titulo {
     color: #e93d50;
-    font-weight: 800;
-    font-size: 60px;
+    font-weight: bold;
+    font-size: 58px;
     margin-bottom: .3rem;
 }
 
@@ -36,8 +36,8 @@
     font-weight: 500;
     font-size: 22px;
     line-height: 1.3;
-    margin: 1rem 0;
     color: #fff;
+    margin-left: 40px;
 }
 
 .chamada__p--destaque {
@@ -83,9 +83,7 @@
 
 .lista__categoria:hover {
     cursor: pointer;
-    margin-bottom: 10px;
-    margin-left: 4px;
-    background-color: #009AE0;
-    opacity: 0.4;
+    background-color: rgba(66,134,244,.3);
     transition: 1s;
+    transform: translateY(2px);
 }

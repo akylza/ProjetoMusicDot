@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin-left: 10px;
 }
 
 .home {
@@ -14,7 +15,7 @@
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.23em;
-    padding: 25px;
+    padding: 30px;
     width: 100%;
     box-sizing: border-box;
     color: #ffffff;
@@ -26,6 +27,7 @@
     padding: 16px 0;
     z-index: 2;
     display: inline-block;
+    margin-left: 40px;
 }
 
 .cabecalho_principal-nav {

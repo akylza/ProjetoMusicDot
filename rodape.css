@@ -1,0 +1,127 @@
+.rodape {
+    text-align: center;
+    font-size: 0.7rem;
+    padding-top: 2em;
+    padding-bottom: 20px;
+    border-top: 3px solid #c62d44;
+    color: #616e7a;
+}
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.rodape__logo {
+    width: 80%;
+}
+
+.rodape__lista-midias-sociais {
+    display: flex;
+    padding-top: 10px;
+}
+
+.rodape__infos-empresa {
+    padding-top: 20px;
+    line-height: 1.8;
+}
+
+.rodape__secao {
+    justify-content: right;
+}
+
+.rodape__secao-cursos {
+    line-height: 1.8;
+}
+
+.rodape__secao-links {
+    line-height: 1.8;
+}
+
+.rodape__item-midias-sociais {
+    width: 20%;
+    padding-left: 5px;
+}
+
+.rodape__item-midias-sociais img {
+    width: 100%;
+}
+
+.rodape__titulo {
+    font-size: 1.45em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.rodape__item-lista {
+    font-weight: 500;
+    padding: 20px;
+}
+
+@media (max-width: 640px) {
+    .rodape__secao + .rodape__secao {
+        margin-top: 2em;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 1200px) {
+    .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-size: 1rem;
+    }
+
+    .rodape__secao-sobre,
+    .rodape__secao-cursos,
+    .rodape__secao-links,
+    .rodape__secao-newsletter {
+        width: 45%;
+    }
+
+    .rodape__secao-cursos {
+        order: 1;
+        margin: 0;
+    }
+
+    .rodape__secao-links {
+        order: 2;
+        margin: 0;
+    }
+
+    .rodape__secao-sobre {
+        order: 3;
+        margin-top: 2em;
+    }
+
+    .rodape__secao-newsletter {
+        order: 4;
+        margin-top: 2em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .rodape {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.85rem;
+        text-align: left;
+    }
+
+    .rodape__titulo {
+        font-size: 1em;
+    }
+
+    .rodape__lista-midias-sociais {
+        justify-content: left;
+    }
+
+    .rodape__secao {
+        margin-top: 0;
+    }
+
+    .rodape__secao + .rodape__secao {
+        margin-left: 2em;
+    }
+}
