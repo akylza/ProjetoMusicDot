@@ -1,2 +1,2 @@
 # ProjetoMusicDot
-Exercício Prático do grupo Alura (Criação de um sítio do Projeto MusicDot)
+Exercício Prático do grupo Alura (Criação de um sítio do Projeto MusicDot).
